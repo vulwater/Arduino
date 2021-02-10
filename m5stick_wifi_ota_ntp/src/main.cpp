@@ -1,9 +1,9 @@
 #include <ArduinoOTA.h>
 #include <M5StickCPlus.h>
-#include <NTPCLient.h>
+#include <NTPClient.h>
 #include <WiFiManager.h>
-#include <Wifi.h>
-#include <WifiUdp.h>
+#include <WiFi.h>
+#include <WiFiUdp.h>
 
 void wifiSetup();
 void ntpSync();
